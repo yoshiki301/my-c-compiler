@@ -17,3 +17,9 @@ docker run --rm -it -v $HOME/my-c-compiler compilerbook
 ```
 
 コンテナをインタラクティブに呼び出し、ビルドする
+
+```
+docker cp step01/. [コンテナID]:/[コピー先パス]
+```
+
+ディレクトリごとコピーする
